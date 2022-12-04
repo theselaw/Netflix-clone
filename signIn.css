@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(./images/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.container{
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    color: whitesmoke;
+    width: 30%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.container_items{
+  padding: 30px 55px 85px 55px;
+    /* margin: 0 auto; */
+}
+.container_items h4{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.container_items input{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 13px 0 13px 10px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #333333;
+    border-radius: 4px;
+    color:#8C8C8C;;
+    
+}
+.container_items button{
+    width: 100%;
+    text-align: center;
+    background-color: #E50914;
+    color: #ffff;
+    border-radius: 4px;
+    padding: 13px 0;
+    margin: 20px 0;
+    border: none;
+}
+.rem{
+    display: flex;
+    justify-content: space-around;
+    color: #B3B3B3;
+    font-size: 13px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    color: #8C8C8C;
+    margin: 15px 0;
+}
+.facebook_icon{
+    width: 15px;
+}
+.facebook a{
+    color: #737373;;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.sign_up a{
+    text-decoration: none;
+    color: #fff;
+}
+.netflix{
+    color: #737373;
+    font-size: 14px;
+    margin: 13px 0;
+}
+.google_protect{
+    color: #8C8C8C;
+    font-size: 14px;
+    margin: 12px 0;
+}
+.google_protect a{
+    text-decoration: none;
+}
+footer {
+    color: #757575;
+    background-color: #000000;
+    padding: 50px 0;
+
+}
+.footer_items{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqs,
+.help_center,
+.acct,
+.Media_Center {
+    /* width: 15%; */
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.language2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* border: 1px solid #AAAAAA; */
+    border-radius: 2px;
+    padding: 9px 5px;
+    width: 20%;
+    /* margin-left: 19%; */
+
+
+}
+
+footer li a {
+    color: #757575;
+    text-decoration: none;
+}
+
+@media (max-width:420px) {
+    .container{
+        width: 80%;
+    }
+        
+    .container_items{
+        padding: 20px 35px;
+    }
+    .footer_container{
+        flex-direction: column;
+    }
+        .faqs,
+        .help_center,
+        .acct,
+        .Media_Center{
+            line-height: 18px;
+            padding: 10px;
+        }
+    .language2{
+        width: 100%;
+    }
+}
+@media (max-width:800px) {
+    .container {
+            width: 70%;
+    }
+         .footer_container {
+             flex-direction: row;
+         }
+}
+
